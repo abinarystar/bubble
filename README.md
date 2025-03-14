@@ -124,7 +124,8 @@ limits our configuration since we can't change the implementation after the bina
 
 Next, let's open the [SimpleMailService](src/main/java/com/abinarystar/core/mail/SimpleMailService.java) class. When
 calling `send` method using `TemplateMailRequest`, it will call
-`templateService.generate` to get the content template. Let's open the `TemplateService` to see how it generates the
+`templateService.generate` to get the content template. Let's open
+the [TemplateService](src/main/java/com/abinarystar/core/template/TemplateService.java) to see how it generates the
 template. As you can see, we are using Velocity library to create the template. The problem with Velocity is that, as of
 2025 March, Velocity has not supported GraalVM. Because Velocity uses reflection technique, the compilation result will
 not include these codes, resulting in runtime exception when using Velocity.

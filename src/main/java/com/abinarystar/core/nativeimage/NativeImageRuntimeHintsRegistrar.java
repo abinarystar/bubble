@@ -43,7 +43,11 @@ public class NativeImageRuntimeHintsRegistrar implements RuntimeHintsRegistrar {
       populate(pkg, classNames, resources);
       for (String className : classNames) {
         log.debug("Register class | name: {}", className);
-        hints.reflection().registerType(TypeReference.of(className), MEMBER_CATEGORIES);
+        try {
+          hints.reflection().registerType(TypeReference.of(className), MEMBER_CATEGORIES);
+        } catch (Exception ex) {
+          log.error("Register class failed | name: {} | error: {}", className, ex.getMessage());
+        }
       }
       for (String resource : resources) {
         log.debug("Register resource | name: {}", resource);
@@ -54,7 +58,11 @@ public class NativeImageRuntimeHintsRegistrar implements RuntimeHintsRegistrar {
     List<String> classes = ResourceHelper.readAllLines("native-hints/native-classes.txt");
     for (String cls : classes) {
       log.debug("Register class | name: {}", cls);
-      hints.reflection().registerType(TypeReference.of(cls));
+      try {
+        hints.reflection().registerType(TypeReference.of(cls), MEMBER_CATEGORIES);
+      } catch (Exception ex) {
+        log.error("Register class failed | name: {} | error: {}", cls, ex.getMessage());
+      }
     }
 
     List<String> resources = ResourceHelper.readAllLines("native-hints/native-resources.txt");

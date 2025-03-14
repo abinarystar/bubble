@@ -1,0 +1,7 @@
+com.abinarystar.core.command.CommandAutoConfiguration
+com.abinarystar.core.data.DataAutoConfiguration
+com.abinarystar.core.mail.MailAutoConfiguration
+com.abinarystar.core.nativeimage.NativeImageAutoConfiguration
+com.abinarystar.core.swagger.SwaggerAutoConfiguration
+com.abinarystar.core.template.TemplateAutoConfiguration
+com.abinarystar.core.web.WebAutoConfiguration

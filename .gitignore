@@ -1,0 +1,11 @@
+# jetbrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# macos
+.DS_Store
+
+# maven
+target/

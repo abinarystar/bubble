@@ -1,0 +1,2297 @@
+[
+  {
+    "name": "org.apache.velocity.app.event.EventCartridge",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.event.EventHandler",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.event.EventHandlerUtil",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.event.implement.EscapeHtmlReference",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.event.implement.EscapeJavaScriptReference",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.event.implement.EscapeReference",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.event.implement.EscapeSqlReference",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.event.implement.EscapeXmlReference",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.event.implement.IncludeNotFound",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.event.implement.IncludeRelativePath",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.event.implement.InvalidReferenceInfo",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.event.implement.PrintExceptions",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.event.implement.ReportInvalidReferences",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.event.IncludeEventHandler",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.event.InvalidReferenceEventHandler",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.event.MethodExceptionEventHandler",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.event.ReferenceInsertionEventHandler",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.FieldMethodizer",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.Velocity",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.app.VelocityEngine",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.context.AbstractContext",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.context.ChainedInternalContextAdapter",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.context.Context",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.context.InternalContextAdapter",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.context.InternalContextAdapterImpl",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.context.InternalContextBase",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.context.InternalEventContext",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.context.InternalHousekeepingContext",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.context.InternalWrapperContext",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.exception.ExtendedParseException",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.exception.MacroOverflowException",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.exception.MathException",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.exception.MethodInvocationException",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.exception.ParseErrorException",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.exception.ResourceNotFoundException",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.exception.TemplateInitException",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.exception.VelocityException",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.io.Filter",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.io.UnicodeInputStream",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.io.UnicodeInputStream$1",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.io.UnicodeInputStream$UnicodeBOM",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.io.VelocityWriter",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.DeprecatedRuntimeConstants",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.Block",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.Block$Reference",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.BlockMacro",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.Break",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.contrib.For",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.Define",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.Directive",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.DirectiveConstants",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.Evaluate",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.Foreach",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.ForeachScope",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.Include",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.InputBase",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.Macro",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.Macro$MacroArg",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.MacroParseException",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.Parse",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.RuntimeMacro",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.Scope",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.Scope$Info",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.Stop",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.Stop$1",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.StopCommand",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.directive.VelocimacroProxy",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.CharStream",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.LogContext",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.LogContext$1",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.LogContext$StackElement",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.AbstractExecutor",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTAddNode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTAndNode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTAssignment",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTBinaryOperator",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTBlock",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTComment",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTComparisonNode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTDirective",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTDirectiveAssign",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTDivNode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTElseIfStatement",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTElseStatement",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTEQNode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTEscape",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTEscapedDirective",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTExpression",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTFalse",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTFloatingPointLiteral",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTGENode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTGTNode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTIdentifier",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTIfStatement",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTIncludeStatement",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTIndex",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTIntegerLiteral",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTIntegerRange",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTIntegerRange$IntegerRange",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTIntegerRange$IntegerRange$RangeIterator",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTLENode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTLogicalOperator",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTLTNode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTMap",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTMathNode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTMethod",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTMethod$MethodCacheKey",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTModNode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTMulNode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTNegateNode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTNENode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTNotNode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTObjectArray",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTOrNode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTParameters",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTprocess",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTReference",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTSetDirective",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTStringLiteral",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTSubtractNode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTText",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTTextblock",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTTrue",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTVariable",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.ASTWord",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.BooleanPropertyExecutor",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.GetExecutor",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.IndentationFixer",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.JJTParserState",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.JJTStandardParserState",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.MapGetExecutor",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.MapGetExecutor$MapGetMethod",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.MapSetExecutor",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.MathUtils",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.Node",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.NodeUtils",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.PropertyExecutor",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.PublicFieldExecutor",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.PutExecutor",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.SetExecutor",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.SetPropertyExecutor",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.SetPublicFieldExecutor",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.SimpleNode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.StandardParserDefaultVisitor",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.StandardParserTreeConstants",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.node.StandardParserVisitor",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.ParseException",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.Parser",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.StandardParser",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.StandardParser$1",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.StandardParser$JJCalls",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.StandardParser$LookaheadSuccess",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.StandardParserConstants",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.StandardParserTokenManager",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.StandardParserTokenManager$1",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.StandardParserTokenManager$ParserState",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.TemplateParseException",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.Token",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.TokenMgrError",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.parser.VelocityCharStream",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.ParserConfiguration",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.ParserPool",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.ParserPoolImpl",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.Renderable",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.ContentResource",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.loader.DatabaseObjectsFactory",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.loader.DataSourceResourceLoader",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.loader.DataSourceResourceLoader$SelfCleaningReader",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.loader.DefaultDatabaseObjectsFactory",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.loader.FileResourceLoader",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.loader.JarHolder",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.loader.JarResourceLoader",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.loader.ResourceLoader",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.loader.ResourceLoaderFactory",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.loader.StringResourceLoader",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.loader.URLResourceLoader",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.Resource",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.ResourceCache",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.ResourceCacheImpl",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.ResourceCacheImpl$LRUMap",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.ResourceFactory",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.ResourceManager",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.ResourceManagerImpl",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.util.StringResource",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.util.StringResourceRepository",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.resource.util.StringResourceRepositoryImpl",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.RuntimeConstants",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.RuntimeConstants$SpaceGobbling",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.RuntimeInstance",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.RuntimeServices",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.RuntimeSingleton",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.VelocimacroFactory",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.VelocimacroFactory$1",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.VelocimacroFactory$Twonk",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.VelocimacroManager",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.VelocimacroManager$1",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.VelocimacroManager$MacroEntry",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.VelocityEngineVersion",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.visitor.BaseVisitor",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.runtime.visitor.NodeViewMode",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.Template",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.ArrayIterator",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.ArrayListWrapper",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.ClassUtils",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.ContextAware",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.DeprecationAwareExtProperties",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.DuckType",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.DuckType$Types",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.EnumerationIterator",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.ExtProperties",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.ExtProperties$PropertiesReader",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.ExtProperties$PropertiesTokenizer",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.AbstractChainableUberspector",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.ChainableUberspector",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.ClassFieldMap",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.ClassMap",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.ClassMap$1",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.ClassMap$MethodCache",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.ConversionHandler",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.Converter",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.DeprecatedCheckUberspector",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.Info",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.IntrospectionCacheData",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.IntrospectionUtils",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.Introspector",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.IntrospectorBase",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.IntrospectorCache",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.LinkingUberspector",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.MethodMap",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.MethodMap$AmbiguousException",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.MethodMap$Match",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.SecureIntrospectorControl",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.SecureIntrospectorImpl",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.SecureUberspector",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.TypeConversionHandler",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.TypeConversionHandlerImpl",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.Uberspect",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.UberspectImpl",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.UberspectImpl$1",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.UberspectImpl$VelGetterImpl",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.UberspectImpl$VelMethodImpl",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.UberspectImpl$VelSetterImpl",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.UberspectPublicFields",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.VelMethod",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.VelPropertyGet",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.introspection.VelPropertySet",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.RuntimeServicesAware",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.SimplePool",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.StringBuilderWriter",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.StringUtils",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.TemplateBoolean",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.TemplateNumber",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.util.TemplateString",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "org.apache.velocity.VelocityContext",
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allPublicClasses": true,
+    "unsafeAllocated": true
+  }
+]

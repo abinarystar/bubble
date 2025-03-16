@@ -15,7 +15,7 @@ To run `bubble`, you will need the following applications installed on your syst
 - [JDK](https://jdk.java.net/archive/) (minimum version: 21)
 - [GraalVM JDK](https://github.com/graalvm/graalvm-ce-builds/releases/) (minimum version: 21)
 
-Make sure you have the correct configuration on your system or IDE. Execute this command to verify:
+To verify your configuration, execute this command:
 
 ```shell
 mvn -v
@@ -44,8 +44,9 @@ mvn spring-boot:run
 
 If everything works well, you will see a log `Started BubbleApplication in ... seconds (process running for ...)`.
 
-Swagger UI is accessible from [http://localhost:8080/docs](http://localhost:8080/docs). To stop the application, press
-`ctrl+c`.
+Open [http://localhost:8080/docs](http://localhost:8080/docs) to access Swagger UI.
+
+To stop the application, press `ctrl+c`.
 
 ### Run with GraalVM
 
@@ -74,18 +75,18 @@ GraalVM JDK is created to support AOT on Java based application. It means that J
 Since our goal is to reduce start up time and memory usage, we need to do some adjustment into the compilation itself.
 You can see more detailed explanation on [GraalVM site](https://www.graalvm.org/latest/reference-manual/native-image/).
 
-One important aspect on GraalVM is the ability to choose codes that will be included in the binary. GraalVM will
-traverse our codes beginning from the `main` method. However, since Java has mechanism, such as Reflection, GraalVM
-might have no idea about those codes. This in turn results in missing critical codes that are required during runtime.
-To solve this issue, GraalVM provides a mechanism to developers as a way to tell GraalVM which files should be included
-in the binary. To do this, we use reachability metadata. You can see more detailed explanation
+To achieve it, required objects will be created during compilation. GraalVM will traverse our codes beginning from the
+`main` method. However, since Java has mechanism, such as Reflection, GraalVM might have no idea about those codes. This
+in turn results in missing critical codes that are required during runtime. To solve this issue, GraalVM provides a
+mechanism to developers as a way to tell GraalVM what files should be included in the binary. To do this, we use
+reachability metadata. You can see more detailed explanation
 on [GraalVM site](https://www.graalvm.org/latest/reference-manual/native-image/metadata/).
 
 ## Project Structure
 
 ### `pom.xml`
 
-First, let us see the [pom.xml](pom.xml) file. We will highlight important points when compiling projects into native
+First, let's see the [pom.xml](pom.xml) file. We will highlight important points when compiling projects into native
 binary.
 
 We use `spring-boot-starter-parent` as our parent pom as usual. Important of note to use GraalVM, Spring already
@@ -126,9 +127,9 @@ Next, let's open the [SimpleMailService](src/main/java/com/abinarystar/core/mail
 calling `send` method using `TemplateMailRequest`, it will call
 `templateService.generate` to get the content template. Let's open
 the [TemplateService](src/main/java/com/abinarystar/core/template/TemplateService.java) to see how it generates the
-template. As you can see, we are using Velocity library to create the template. The problem with Velocity is that, as of
-2025 March, Velocity has not supported GraalVM. Because Velocity uses reflection technique, the compilation result will
-not include these codes, resulting in runtime exception when using Velocity.
+template. As you can see, we are using Velocity library to create the template. The problem with Velocity is that it has
+not supported GraalVM yet. Because Velocity uses reflection technique, the compilation result will not include these
+codes, resulting in runtime exception when using Velocity.
 
 To fix this, let's
 open [NativeImageAutoConfiguration](src/main/java/com/abinarystar/core/nativeimage/NativeImageAutoConfiguration.java)
@@ -140,7 +141,7 @@ class.
 
 In `NativeImageRuntimeHintsRegistrar`, we can tell GraalVM to include classes, resources, etc. by registering it to
 `RuntimeHints`. In an ideal world, the maintainer of each library should provide their reachability metadata for
-GraalVM. However, since Velocity currently lacks required reachability metadata, we need to register it ourselves.
+GraalVM. However, since Velocity lacks required reachability metadata, we need to register it ourselves.
 
 There are two ways to do this:
 
@@ -151,7 +152,7 @@ See [Spring Boot GraalVM](https://docs.spring.io/spring-boot/reference/packaging
 
 If we use the second method, we need to create folders in
 `src/main/resources/META-INF/native-image/{groupId}/{artifactId}-additional-hints/`. Inside this folder, we create
-several files based on our needs. To use this method, we need to know which files to include. This might not be a good
+several files based on our needs. To use this method, we need to know what files to include. This might not be a good
 strategy in our case.
 
 In this project, we opt to use the first method. However, we normally would still need to define the files manually.
@@ -171,9 +172,9 @@ One important point to note here is that, in order for this model to work in nat
 ### `resources`
 
 Let's look into [src/main/resources](src/main/resources) folder. There are several files not relevant to GraalVM. Those
-are related to core "library".
+are related to core “library”.
 
-We can ignore these files since it should be part of core "library":
+We can ignore these files since it should be part of core “library”:
 
 - `META-INF/org.springframework.boot.autoconfigure.AutoConfiguration.imports`
 - `META-INF/spring.factories`

@@ -184,7 +184,7 @@ We can ignore these files since it should be part of core “library”:
 - `template.properties`
 - `web.properties`
 
-In `native-hints` folder, files under `native-hints` will be read by `NativeImageRuntimeHintsRegistrar`.
+In `native-image` folder, files under `native-image` will be read by `NativeImageRuntimeHintsRegistrar`.
 
 In `velocity-templates` folder, all files will be read by `TemplateService`.
 

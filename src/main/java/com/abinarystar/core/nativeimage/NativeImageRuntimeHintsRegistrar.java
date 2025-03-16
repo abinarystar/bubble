@@ -36,7 +36,7 @@ public class NativeImageRuntimeHintsRegistrar implements RuntimeHintsRegistrar {
   @Override
   @SneakyThrows
   public void registerHints(RuntimeHints hints, ClassLoader classLoader) {
-    List<String> packages = ResourceHelper.readAllLines("native-hints/native-packages.txt");
+    List<String> packages = ResourceHelper.readAllLines("native-image/packages.txt");
     for (String pkg : packages) {
       Set<String> classNames = new HashSet<>();
       Set<String> resources = new HashSet<>();
@@ -55,7 +55,7 @@ public class NativeImageRuntimeHintsRegistrar implements RuntimeHintsRegistrar {
       }
     }
 
-    List<String> classes = ResourceHelper.readAllLines("native-hints/native-classes.txt");
+    List<String> classes = ResourceHelper.readAllLines("native-image/classes.txt");
     for (String cls : classes) {
       log.debug("Register class | name: {}", cls);
       try {
@@ -65,7 +65,7 @@ public class NativeImageRuntimeHintsRegistrar implements RuntimeHintsRegistrar {
       }
     }
 
-    List<String> resources = ResourceHelper.readAllLines("native-hints/native-resources.txt");
+    List<String> resources = ResourceHelper.readAllLines("native-image/resources.txt");
     for (String resource : resources) {
       log.debug("Register resource | name: {}", resource);
       hints.resources().registerPattern(resource);

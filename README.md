@@ -91,8 +91,8 @@ binary.
 
 We use `spring-boot-starter-parent` as our parent pom as usual. Important of note to use GraalVM, Spring already
 provides us the native build tool and native profile. When compiling the project into native binary, we use
-`mvn -Pnative clean native:compile`, where `-Pnative` enables the native profile, and `native:compile` uses native build
-tool to compile the project.
+`mvn -Pnative clean native:compile`, where `-Pnative` enables the inclusion of AOT plugin, and `native:compile` uses
+native build tool to compile the project.
 
 To use `lombok`, we need to inform Maven compiler plugin. We need to explicitly add `lombok` into annotation processor
 paths.
@@ -146,20 +146,19 @@ GraalVM. However, since Velocity lacks required reachability metadata, we need t
 There are two ways to do this:
 
 - Create `RuntimeHintsRegistrar` implementation
-- or, create GraalVM hint file under `resources` folder
+- or, create static hint file under `resources` folder
 
 See [Spring Boot GraalVM](https://docs.spring.io/spring-boot/reference/packaging/native-image/advanced-topics.html#packaging.native-image.advanced.custom-hints).
 
-If we use the second method, we need to create folders in
-`src/main/resources/META-INF/native-image/{groupId}/{artifactId}-additional-hints/`. Inside this folder, we create
-several files based on our needs. To use this method, we need to know what files to include. This might not be a good
-strategy in our case.
+If we use the second method, we need to put the hint on folder
+`src/main/resources/META-INF/native-image/{groupId}/{artifactId}-additional-hints/`. To use this method, we need to know
+what files to include. This might not be a good strategy in our case.
 
 In this project, we opt to use the first method. However, we normally would still need to define the files manually.
 Fortunately, we can leverage Java to scan library classes to automate the process.
 
 If you want to try the second method, you can copy-paste the logic inside `NativeImageRuntimeHintsRegistrar` to produce
-the list of classes and resources as a hint to GraalVM. Then create GraalVM hint file under `resources` folder and
+the list of classes and resources as a hint to GraalVM. Then create static hint file under `resources` folder and
 disable `NativeImageRuntimeHintsRegistrar`.
 
 ### `properties`

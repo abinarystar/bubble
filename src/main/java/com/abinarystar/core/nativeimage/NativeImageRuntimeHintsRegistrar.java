@@ -42,11 +42,17 @@ public class NativeImageRuntimeHintsRegistrar implements RuntimeHintsRegistrar {
       Set<String> resources = new HashSet<>();
       populate(pkg, classNames, resources);
       for (String className : classNames) {
-        log.debug("Register class | name: {}", className);
         try {
+          log.debug("Register reflection | name: {}", className);
           hints.reflection().registerType(TypeReference.of(className), MEMBER_CATEGORIES);
         } catch (Exception ex) {
-          log.error("Register class failed | name: {} | error: {}", className, ex.getMessage());
+          log.error("Register reflection failed | name: {} | error: {}", className, ex.getMessage());
+        }
+        try {
+          log.debug("Register serialization | name: {}", className);
+          hints.serialization().registerType(TypeReference.of(className));
+        } catch (Exception ex) {
+          log.error("Register serialization failed | name: {} | error: {}", className, ex.getMessage());
         }
       }
       for (String resource : resources) {

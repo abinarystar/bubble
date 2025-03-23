@@ -14,8 +14,8 @@ public class CommandExecutor {
   private final Validator validator;
 
   public <T, R> R execute(Class<? extends Command<T, R>> commandClass, T request) {
-    Command<T, R> command = applicationContext.getBean(commandClass);
     validateRequest(request);
+    Command<T, R> command = applicationContext.getBean(commandClass);
     return command.execute(request);
   }
 

@@ -80,25 +80,27 @@ public class NativeImageRuntimeHintsRegistrar implements RuntimeHintsRegistrar {
 
   @SneakyThrows
   private void populate(String packageName, Set<String> classNames, Set<String> resources) {
-    JarFile jarFile = ResourceHelper.getJarFile(packageName);
-    if (jarFile == null) {
+    List<JarFile> jarFiles = ResourceHelper.getJarFiles(packageName);
+    if (jarFiles == null) {
       return;
     }
 
-    try (JarFile file = jarFile) {
-      Enumeration<JarEntry> entries = file.entries();
-      while (entries.hasMoreElements()) {
-        JarEntry entry = entries.nextElement();
+    for (JarFile jarFile : jarFiles) {
+      try (JarFile file = jarFile) {
+        Enumeration<JarEntry> entries = file.entries();
+        while (entries.hasMoreElements()) {
+          JarEntry entry = entries.nextElement();
 
-        if (entry.getName().endsWith(".class")) {
-          String className = entry.getName()
-              .replace("/", ".")
-              .replace(".class", "");
-          classNames.add(className);
-        }
+          if (entry.getName().endsWith(".class")) {
+            String className = entry.getName()
+                .replace("/", ".")
+                .replace(".class", "");
+            classNames.add(className);
+          }
 
-        if (entry.getName().endsWith(".properties")) {
-          resources.add(entry.getName());
+          if (entry.getName().endsWith(".properties")) {
+            resources.add(entry.getName());
+          }
         }
       }
     }

@@ -3,6 +3,8 @@ package com.abinarystar.core.common;
 import java.io.File;
 import java.net.URL;
 import java.nio.file.Files;
+import java.util.ArrayList;
+import java.util.Enumeration;
 import java.util.List;
 import java.util.jar.JarFile;
 import lombok.AccessLevel;
@@ -14,14 +16,20 @@ import org.springframework.core.io.ClassPathResource;
 @Slf4j
 public class ResourceHelper {
 
-  public static JarFile getJarFile(String packageName) {
+  public static List<JarFile> getJarFiles(String packageName) {
     try {
+      List<JarFile> jarFiles = new ArrayList<>();
       packageName = packageName.replace('.', '/');
-      URL url = new ClassPathResource(packageName).getURL();
-      String path = url.getFile().replace("file:/", "").replaceFirst("!.*", "");
-      return new JarFile(new File(path));
+      ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
+      Enumeration<URL> resources = classLoader.getResources(packageName);
+      while (resources.hasMoreElements()) {
+        URL url = resources.nextElement();
+        String path = url.getFile().replace("file:/", "").replaceFirst("!.*", "");
+        jarFiles.add(new JarFile(new File(path)));
+      }
+      return jarFiles;
     } catch (Exception ex) {
-      log.error("Get jar file failed | packageName: {} | error: {}", packageName, ex.getMessage());
+      log.error("Get jar files failed | packageName: {} | error: {}", packageName, ex.getMessage());
       return null;
     }
   }
